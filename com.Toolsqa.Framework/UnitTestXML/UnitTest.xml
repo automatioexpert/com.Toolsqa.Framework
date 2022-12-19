@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UnitTests" parallel="none">
+  <test name="FrameworkUnitTest">
+    <classes>
+      <class name="UnitTest.DataProviderTest"/>
+      <class name="UnitTest.BrowserFactoryTest"/>
+      <class name="UnitTest.DataProviderFactoryTest"/>
+    </classes>
+  </test> <!-- FrameworkUnitTest -->
+</suite> <!-- UnitTests -->

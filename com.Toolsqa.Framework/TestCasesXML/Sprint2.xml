@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Toolsqa2" parallel="none">
+  <test name="Sprint2">
+    <classes>
+      <class name="TestCases.ValidateWordpress2"/>
+      <class name="TestCases.ValidateWordpress1"/>
+      <class name="TestCases.ValidateWordpress"/>
+    </classes>
+  </test> <!-- Sprint2 -->
+</suite> <!-- Toolsqa -->

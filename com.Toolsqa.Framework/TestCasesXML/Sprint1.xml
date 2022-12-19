@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Toolsqa1" parallel="tests">
+  <test name="Sprint1">
+  
+  <parameter name="browser" value="firefox"/>
+     
+    <classes>
+
+      <class name="TestCases.LoginWordpress1"/>
+
+
+      <class name="TestCases.LoginWordpress"/>
+    
+    </classes>
+    
+  </test> 
+  
+  
+  <test name="Sprint2">
+  
+  <parameter name="browser" value="Chrome"/>
+     
+    <classes>
+
+      <class name="TestCases.LoginWordpress1"/>
+
+
+      <class name="TestCases.LoginWordpress"/>
+    
+    </classes>
+    
+  </test>
+  
+  
+  <test name="Sprint1">
+  
+  <parameter name="browser" value="IE"/>
+     
+    <classes>
+
+      <class name="TestCases.LoginWordpress1"/>
+
+
+      <class name="TestCases.LoginWordpress"/>
+    
+    </classes>
+    
+  </test>
+</suite> <!-- Toolsqa -->

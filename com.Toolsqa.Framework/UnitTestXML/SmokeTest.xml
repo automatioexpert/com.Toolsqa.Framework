@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="TestCases.ValidateWordpress2"/>
+      <class name="TestCases.ValidateWordpress1"/>
+      <class name="TestCases.LoginWordpress1"/>
+      <class name="TestCases.ValidateWordpress"/>
+      <class name="TestCases.LoginWordpress"/>
+      <class name="TestCases.DemoReport"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

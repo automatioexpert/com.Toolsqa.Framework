@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Toolsqa" parallel="none">
+  <test name="DataDriven">
+    <classes>
+      <class name="DDT.LoginWordpress"/>
+      <class name="DDT.LoginWordpressExcel"/>
+    </classes>
+  </test> <!-- DataDriven -->
+</suite> <!-- Toolsqa -->
